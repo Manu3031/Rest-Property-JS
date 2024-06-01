@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Rest Property</h2>
+<p id="demo"></p>
+<script>
+const numbers = [10, 20, 30, 40, 50, 60];
+const [a,b, ...rest] = numbers; 
+document.getElementById("demo").innerHTML = "<p>a is " + a + "<p>b is " + b + "<p>the rest is " + rest;
+</script>
+</body>
+</html>
